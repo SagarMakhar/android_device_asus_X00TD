@@ -384,7 +384,9 @@ PRODUCT_PACKAGES += \
     rild \
     librmnetctl \
     libxml2 \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml
 
 PRODUCT_BOOT_JARS += \
     qcrilhook
