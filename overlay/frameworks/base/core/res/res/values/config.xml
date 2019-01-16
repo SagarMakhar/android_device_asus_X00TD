@@ -458,4 +458,7 @@
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
+    <!-- True if the firmware supports connected MAC randomization -->
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+
 </resources>
