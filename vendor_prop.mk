@@ -216,6 +216,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.disable_skip_validate=1 \
     vendor.display.disable_skip_validate=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.early_phase_offset_ns=1500000 \
+    debug.sf.early_app_phase_offset_ns=1500000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000
+
 # System prop for UBWC
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1
